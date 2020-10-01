@@ -5,3 +5,14 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+subscribers = Subscriber.create([
+  {name: 'Jay'},
+  {name: 'Pasan'}
+])
+
+magazines = Magazine.create([
+  {title: 'Ruby Reader'},
+  {title: 'iOS Inspired'}
+])
+
